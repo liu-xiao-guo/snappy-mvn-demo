@@ -11,7 +11,7 @@
  
 <sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
      url="jdbc:mysql://localhost/owncloud:3306"
-     user="root"  password=""/>
+     user="owncloud"  password="123"/>
  
 <sql:query dataSource="${snapshot}" var="result">
 SELECT * from Employees;
